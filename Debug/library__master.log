@@ -1,0 +1,44 @@
+﻿  Book.cpp
+G:\Catc++\Library-master\library\Book.cpp(15,13): warning C4244: “参数”: 从“time_t”转换到“const _Elem”，可能丢失数据
+          with
+          [
+              _Elem=char
+          ]
+  BorrowRecord.cpp
+  DBUtil.cpp
+G:\Catc++\Library-master\library\DBUtil.cpp(102,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+G:\Catc++\Library-master\library\DBUtil.cpp(103,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+G:\Catc++\Library-master\library\DBUtil.cpp(221,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+G:\Catc++\Library-master\library\DBUtil.cpp(268,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+G:\Catc++\Library-master\library\DBUtil.cpp(298,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+G:\Catc++\Library-master\library\DBUtil.cpp(299,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+G:\Catc++\Library-master\library\DBUtil.cpp(327,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+G:\Catc++\Library-master\library\DBUtil.cpp(415,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+G:\Catc++\Library-master\library\DBUtil.cpp(472,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+G:\Catc++\Library-master\library\DBUtil.cpp(473,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+G:\Catc++\Library-master\library\DBUtil.cpp(500,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+G:\Catc++\Library-master\library\DBUtil.cpp(561,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+G:\Catc++\Library-master\library\DBUtil.cpp(560,7): warning C4101: “szBookId”: 未引用的局部变量
+G:\Catc++\Library-master\library\DBUtil.cpp(581,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  main.cpp
+  Manager.cpp
+  Student.cpp
+  TimeUtil.cpp
+G:\Catc++\Library-master\library\TimeUtil.cpp(16,8): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+G:\Catc++\Library-master\library\TimeUtil.cpp(17,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+G:\Catc++\Library-master\library\TimeUtil.cpp(28,2): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+G:\Catc++\Library-master\library\TimeUtil.cpp(45,15): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+G:\Catc++\Library-master\library\TimeUtil.cpp(103,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  User.cpp
+  正在生成代码...
+DBUtil.obj : error LNK2019: 无法解析的外部符号 _mysql_num_fields@4，函数 "public: class User __thiscall DBUtil::ReadUser(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?ReadUser@DBUtil@@QAE?AVUser@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z) 中引用了该符号
+DBUtil.obj : error LNK2019: 无法解析的外部符号 _mysql_init@4，函数 "public: bool __thiscall DBUtil::OpenDB(void)" (?OpenDB@DBUtil@@QAE_NXZ) 中引用了该符号
+DBUtil.obj : error LNK2019: 无法解析的外部符号 _mysql_real_connect@32，函数 "public: bool __thiscall DBUtil::OpenDB(void)" (?OpenDB@DBUtil@@QAE_NXZ) 中引用了该符号
+DBUtil.obj : error LNK2019: 无法解析的外部符号 _mysql_query@8，函数 "public: class User __thiscall DBUtil::ReadUser(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?ReadUser@DBUtil@@QAE?AVUser@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z) 中引用了该符号
+DBUtil.obj : error LNK2019: 无法解析的外部符号 _mysql_store_result@4，函数 "public: class User __thiscall DBUtil::ReadUser(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?ReadUser@DBUtil@@QAE?AVUser@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z) 中引用了该符号
+DBUtil.obj : error LNK2019: 无法解析的外部符号 _mysql_free_result@4，函数 "public: class User __thiscall DBUtil::ReadUser(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?ReadUser@DBUtil@@QAE?AVUser@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z) 中引用了该符号
+DBUtil.obj : error LNK2019: 无法解析的外部符号 _mysql_fetch_row@4，函数 "public: class User __thiscall DBUtil::ReadUser(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?ReadUser@DBUtil@@QAE?AVUser@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z) 中引用了该符号
+DBUtil.obj : error LNK2019: 无法解析的外部符号 _mysql_fetch_field@4，函数 "public: class User __thiscall DBUtil::ReadUser(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?ReadUser@DBUtil@@QAE?AVUser@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z) 中引用了该符号
+DBUtil.obj : error LNK2019: 无法解析的外部符号 _mysql_close@4，函数 "public: bool __thiscall DBUtil::CloseDB(void)" (?CloseDB@DBUtil@@QAE_NXZ) 中引用了该符号
+MSVCRTD.lib(exe_winmain.obj) : error LNK2019: 无法解析的外部符号 _WinMain@16，函数 "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 中引用了该符号
+G:\Catc++\Library-master\Debug\library__master.exe : fatal error LNK1120: 10 个无法解析的外部命令
